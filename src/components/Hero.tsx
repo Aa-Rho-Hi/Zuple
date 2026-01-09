@@ -8,11 +8,15 @@ export function Hero() {
       <div className="space-y-8">
         <div className="space-y-6">
           <div className="text-sm tracking-[0.3em] opacity-60 uppercase">ZUPLE</div>
-          <h1 className="text-5xl md:text-7xl leading-[1.1] tracking-tight font-bold">
-            Discover great brands.<br />
-            Unlock insider perks<br />
-            along the way.
-          </h1>
+         <h1 className="text-5xl md:text-7xl leading-[1.1] tracking-tight font-bold">
+  Discover great brands.<br />
+  Unlock{' '}
+  <span style={{ color: 'var(--primary)' }}>insider</span>{' '}
+  <span style={{ color: 'var(--primary)' }}>perks</span>
+  <br />
+  along the way.
+</h1>
+
         </div>
         
         <div className="space-y-6 max-w-2xl mx-auto">
