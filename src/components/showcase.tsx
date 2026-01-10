@@ -2,7 +2,9 @@ import Phone1 from '../assets/Phone1.png';
 
 export function Showcase() {
   return (
-    <section className="w-full overflow-hidden bg-background pt-6 pb-0">
+    <section className="relative z-0 w-full overflow-hidden mt-0">
+
+
       <div className="flex justify-center">
         <img
           src={Phone1}
