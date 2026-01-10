@@ -29,13 +29,7 @@ export function Hero() {
             A curated space to find new and emerging Indian brands before they go mainstream.
           </p>
 
-          <p className="text-lg leading-relaxed opacity-70">
-            Thoughtful and high-quality brands chosen for what they stand for, not how loudly they advertise.
-          </p>
-
-          <p className="text-lg leading-relaxed opacity-70 font-medium">
-            If you care about what you use, you'll feel right at home!
-          </p>
+          
         </div>
 
         <div className="pt-4">
