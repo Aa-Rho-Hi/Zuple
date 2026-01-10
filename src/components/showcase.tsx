@@ -1,4 +1,4 @@
-import phone from '../assets/phone1.png';
+import phone from '../assets/Phone1.png';
 
 export function Showcase() {
   return (
