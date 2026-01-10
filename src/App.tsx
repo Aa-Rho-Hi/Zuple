@@ -9,9 +9,18 @@ import { Footer } from './components/Footer';
 export default function App() {
   return (
     <div className="min-h-screen overflow-x-hidden">
+      
       <Hero />
-      <Showcase />
-      <WaitlistForm />
+
+      {/* EXTRA SPACE BELOW CTA */}
+      <div className="mt-16 md:mt-24">
+        <Showcase />
+      </div>
+
+      <div className="mt-24 md:mt-32">
+        <WaitlistForm />
+      </div>
+
       <HowItWorks />
       <InsiderPerks />
       <ClosingMessage />

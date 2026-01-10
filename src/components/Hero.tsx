@@ -7,7 +7,7 @@ export function Hero() {
   };
 
   return (
-    <section className="relative z-50 bg-background px-6 pt-20 pb-40 md:pt-28 md:pb-48 max-w-4xl mx-auto text-center">
+<section className="px-6 pt-20 pb-20 md:pt-28 md:pb-32 max-w-4xl mx-auto text-center">
 
       <div className="space-y-10">
         <div className="text-sm tracking-[0.3em] opacity-60 uppercase">
@@ -15,13 +15,15 @@ export function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl leading-[1.1] tracking-tight font-bold">
-          Discover great brands.
-          <br />
-          Unlock <span className="text-primary">insider</span>{' '}
-          <span className="text-primary">perks</span>
-          <br />
-          along the way.
-        </h1>
+  Discover great brands.<br />
+  Unlock{' '}
+  <span style={{ color: 'var(--primary)' }}>insider</span>{' '}
+  <span style={{ color: 'var(--primary)' }}>perks</span>
+  <br />
+  along the way.
+</h1>
+
+
 
         {/* 👇 THIS WAS BEING OVERLAPPED */}
         <div className="space-y-4 max-w-2xl mx-auto">
@@ -29,7 +31,10 @@ export function Hero() {
             A curated space to find new and emerging Indian brands before they go mainstream.
           </p>
 
-          
+
+          <p className="text-lg leading-relaxed opacity-70 font-medium">
+            If you care about what you use, you'll feel right at home!
+          </p>
         </div>
 
         <div className="pt-4">
