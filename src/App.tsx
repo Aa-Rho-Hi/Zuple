@@ -1,5 +1,5 @@
 import { Hero } from './components/Hero';
-import { Showcase } from './components/Showcase';
+import { Showcase } from './components/showcase';
 import { WaitlistForm } from './components/WaitlistForm';
 import { HowItWorks } from './components/HowItWorks';
 import { InsiderPerks } from './components/InsiderPerks';
