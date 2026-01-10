@@ -14,7 +14,7 @@ export function Hero() {
           ZUPLE
         </div>
 
-        <h1 className="text-3xl md:text-7xl leading-[1.1] tracking-tight font-bold">
+        <h1 className="text-4xl md:text-7xl leading-[1.1] tracking-tight font-bold">
   Discover great brands.<br />
   Unlock{' '}
   <span style={{ color: 'var(--primary)' }}>insider</span>{' '}
