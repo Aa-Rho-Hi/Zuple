@@ -3,7 +3,7 @@ export function Showcase() {
     <section className="relative w-full overflow-hidden bg-background pt-6 md:pt-12 pb-0">
       <div className="flex justify-center">
         <img
-          src="/src/assets/phone1.png"
+          src="/src/assets/Phone1.png"
           alt="Zuple App"
           className="
             w-[80vw]
