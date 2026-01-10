@@ -1,26 +1,19 @@
-import phone from '../assets/Phone1.png';
-
 export function Showcase() {
   return (
-    <section
-      style={{
-        width: '100%',
-        padding: '6rem 0',
-        display: 'flex',
-        justifyContent: 'center',
-        background: 'var(--background)',
-      }}
-    >
-      <img
-        src={phone}
-        alt="Zuple App Preview"
-        style={{
-          height: '640px',
-          maxWidth: '100%',
-          objectFit: 'contain',
-          filter: 'drop-shadow(0 40px 80px rgba(0,0,0,0.25))',
-        }}
-      />
+    <section className="relative w-full overflow-hidden bg-background pt-6 md:pt-12 pb-0">
+      <div className="flex justify-center">
+        <img
+          src="/src/assets/phone1.png"
+          alt="Zuple App"
+          className="
+            w-[80vw]
+            max-w-[320px]
+            md:max-w-[380px]
+            lg:max-w-[420px]
+            h-auto
+          "
+        />
+      </div>
     </section>
   );
 }
