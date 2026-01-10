@@ -1,6 +1,5 @@
 import { Hero } from './components/Hero';
-import { Showcase } from './components/showcase';
-import { BrandCarousel } from './components/BrandCarousel';
+import { Showcase } from './components/Showcase';
 import { WaitlistForm } from './components/WaitlistForm';
 import { HowItWorks } from './components/HowItWorks';
 import { InsiderPerks } from './components/InsiderPerks';
@@ -9,11 +8,10 @@ import { Footer } from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <Hero />
       <Showcase />
       <WaitlistForm />
-      
       <HowItWorks />
       <InsiderPerks />
       <ClosingMessage />
