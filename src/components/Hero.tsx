@@ -4,7 +4,7 @@ export function Hero() {
   };
 
   return (
-    <section className="px-6 pt-20 pb-24 md:pt-28 md:pb-32 max-w-4xl mx-auto text-center">
+    <section className="px-6 pt-20 pb-32 md:pt-28 md:pb-40 max-w-4xl mx-auto text-center">
       <div className="space-y-8">
         <div className="space-y-6">
           <div className="text-sm tracking-[0.3em] opacity-60 uppercase">ZUPLE</div>
