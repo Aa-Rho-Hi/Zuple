@@ -1,4 +1,4 @@
-
+````md
 # 🚀 Zuple — Discover Brands Before They Go Mainstream
 
 Zuple is a **curated discovery platform for emerging Indian brands**.  
