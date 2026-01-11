@@ -110,7 +110,7 @@ npm run preview
 ## 🌐 Deployment (Netlify)
 
 * **Build Command:** `npm run build`
-* **Publish Directory:** `dist`
+* **Publish Directory:** `build`
 * **Environment Variables:** Set in Netlify UI
 * **HTTPS:** Enabled via Let’s Encrypt
 * **Domain:** Custom domain configured
